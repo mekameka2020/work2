@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=PL85Pw_zQH0
 https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
 # 参考にした方
 - Ryuichi Ueda
-GitHub:https://github.com/ryuichiueda
+- GitHub:https://github.com/ryuichiueda
 # GitHubへのアップロード内容に関して参照した方
 - kentaobata
-参照したページのリンク:https://github.com/kentaobata/Robosys_Task2
+- 参照したページのリンク:https://github.com/kentaobata/Robosys_Task2
