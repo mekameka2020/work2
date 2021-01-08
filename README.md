@@ -53,8 +53,7 @@ git clone https://github.com/mekameka2020/work2.git
  ## Tab2
 - Plyaer1(参加者１)用のタブに1～9までの数字を打ち込む
  2.
- ## Tab4
-　に打ち込んだ数値が表示される
+- Tab4に打ち込んだ数値が表示される
  3.
  ## Tab3
 - Plyaer2(参加者２)用のタブに1～9までの数字を打ち込む
@@ -62,7 +61,7 @@ git clone https://github.com/mekameka2020/work2.git
  ## Tab4
 - 2.で打ち込んだ数値と3.で打ち込んだ数値の総計が表示される
  5.
-- 1. 3. を繰り返し行う。
+- 1, 3を繰り返し行う。
  6.
 - 総計が100を超えたとき、勝った側のPlayer名が呼ばれる。
 
