@@ -1,11 +1,14 @@
 # work2
-ROSに関する講義中のノードの実行に関するコードを配置
-
-# ロボットシステム学＿課題２＿提出用リポジトリ
+- ロボットシステム学＿課題２＿提出用リポジトリ
+# 内容
+ROSを用いた『先に100になった方の負けゲーム』の実行
+※『先に100になった方の負けゲーム』とは？
+- ２人のプレイヤーが一人ずつ1～9までの数値を打ち込み、最終的に総計を100にしてしまった方の負け、というルールのゲーム。
 
 # 使用したもの
 - ラズベリーパイ４
 - ROS
+- 通信用ケーブル(USB-TypeCケーブル、LANケーブル)
 
 # インストール方法
 ```sh
@@ -13,49 +16,30 @@ git clone https://github.com/mekameka2020/work2.git
 ```
 と打ち込む。
 
-# count.py 使用方法
+#　準備
  ## Tab1
+- roscoreの起動
  ```sh 
  roscore
  ```
  ## Tab2
+- Plyaer1(参加者１)用のタブ
  ```sh
- rosrun mypkg count.py
+ rosrun mypkg Player1.py
  ```
  ## Tab3
- 1.ノードの確認
+- Plyaer2(参加者２)用のタブ
  ```sh
- rosnode list
- ```
- 2.トピックの確認
- ```sh
- rostopic list
- ```
- 3.『0.1秒につき1カウントしているか』を確認
- ```sh
- rostopic echo /count_up
- ```
- ⇒『data: N』 N:数字
-     ___
-      .
-      .
-      .
-      と、表示されてゆけば成功。
- 
-# twice.py 使用方法
-## Tab1
- ```sh 
- roscore
- ```
- ## Tab2
- ```sh
- rosrun mypkg count.py
- ```
- ## Tab3
- ```sh
- rosrun mypkg twice.py
+ rosrun mypkg Player2.py
  ```
  ## Tab4
+- 双方の打ち込んだ数字を足し合わせた結果の表示・および勝者の表示のためのタブ
+ ```sh
+ rosrun mypkg judgement.py
+ ```
+ ## Tab5
+- ノード・トピックの確認用タブ
+
  1.ノードの確認
  ```sh
  rosnode list
@@ -64,33 +48,35 @@ git clone https://github.com/mekameka2020/work2.git
  ```sh
  rostopic list
  ```
- 3.『0.1秒につき1カウントしているか』を確認
- ```sh
- rostopic echo /twice
- ```
- ⇒『data: M』 M:2の倍数である数字
-     ___
-      .
-      .
-      .
-      と、表示されてゆけば成功。
- 
- 
+# 使用方法
+ 1.
+ ## Tab2
+- Plyaer1(参加者１)用のタブに1～9までの数字を打ち込む
+ 2.
+ ## Tab4
+　に打ち込んだ数値が表示される
+ 3.
+ ## Tab3
+- Plyaer2(参加者２)用のタブに1～9までの数字を打ち込む
+ 4.
+ ## Tab4
+ 2.で打ち込んだ数値と3.で打ち込んだ数値の総計が表示される
+ 5.
+- 1. 3. を繰り返し行う。
+ 6.総計が100を超えたとき、勝った側のPlayer名が呼ばれる。
 
 # 参照動画
-https://www.youtube.com/watch?v=iaYpV31U7j4
 
 # ライセンス
 GNU General Public License v3.0
 
-# 参考にしたページ(講義動画)のリンク
-https://www.youtube.com/watch?v=PL85Pw_zQH0
+# 参考にしたページのリンク
 
 # Ryuichi UedaによるROSのインストールページ(Ubuntu20.04のみ)のリンク
 https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
 # 参考にした方
-- Ryuichi Ueda
-- GitHub:https://github.com/ryuichiueda
-# GitHubへのアップロード内容に関して参照した方
+iwaikaira
+Github内参考ページリンク：https://github.com/iwaikaira/myROS
+# GitHubへのアップロード内容の書式に関して参照した方
 - kentaobata
 - 参照したページのリンク:https://github.com/kentaobata/Robosys_Task2
