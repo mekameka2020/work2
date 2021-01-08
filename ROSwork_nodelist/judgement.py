@@ -48,7 +48,7 @@ if __name__ == '__main__':
     rospy.init_node('judgement')
     rate = rospy.Rate(1)
    
-    while not rospy.is_shutdown(): #ここでsub1,sub2両方読もうとしてるのが2回表示の要因
+    while not rospy.is_shutdown(): 
         sub1 = rospy.Subscriber('Player1_up', Int32, cb)
         
         if n <= 0 | n >= 10 :
