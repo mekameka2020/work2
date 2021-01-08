@@ -65,12 +65,10 @@ git clone https://github.com/mekameka2020/work2.git
  6.
 - 総計が100を超えたとき、勝った側のPlayer名が呼ばれる。
 
-# 参照動画
-
+# 参照動画リンク
+https://www.youtube.com/watch?v=SjN9LxbujFU
 # ライセンス
 GNU General Public License v3.0
-
-# 参考にしたページのリンク
 
 # Ryuichi UedaによるROSのインストールページ(Ubuntu20.04のみ)のリンク
 https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
