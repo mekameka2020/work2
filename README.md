@@ -11,6 +11,12 @@ ROSを用いた『先に100になった方の負けゲーム』の実行
 - 通信用ケーブル(USB-TypeCケーブル、LANケーブル)
 
 # インストール方法
+1.クローンする先へと移動
+```sh
+cd ~/catkin_ws/src/
+```
+と打ち込む。
+2.クローンの実行
 ```sh
 git clone https://github.com/mekameka2020/work2.git
 ```
@@ -68,13 +74,15 @@ git clone https://github.com/mekameka2020/work2.git
 # 参照動画リンク
 https://www.youtube.com/watch?v=SjN9LxbujFU
 # ライセンス
-GNU General Public License v3.0
+- GNU General Public License v3.0
 
 # Ryuichi UedaによるROSのインストールページ(Ubuntu20.04のみ)のリンク
 https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
-# 参考にした方
-iwaikaira
-Github内参考ページリンク：https://github.com/iwaikaira/myROS
+# ノード作成の参考にした方
+- iwaikaira
+- Github内参考ページリンク：https://github.com/iwaikaira/myROS
 # GitHubへのアップロード内容の書式に関して参照した方
 - kentaobata
 - 参照したページのリンク:https://github.com/kentaobata/Robosys_Task2
+- knr2
+- 参照したページのリンク:https://github.com/knr2/mypkg
