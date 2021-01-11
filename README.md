@@ -74,7 +74,7 @@ git clone https://github.com/mekameka2020/work2.git
 # 参照動画リンク
 https://www.youtube.com/watch?v=SjN9LxbujFU
 # ライセンス
-- GNU General Public License v3.0
+[GNU General Public License v3.0](https://github.com/TanapolHongsuwan/ROS_recorder/blob/main/COPYING)
 
 # Ryuichi UedaによるROSのインストールページ(Ubuntu20.04のみ)のリンク
 https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
@@ -86,3 +86,5 @@ https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
 - 参照したページのリンク:https://github.com/kentaobata/Robosys_Task2
 - knr2
 - 参照したページのリンク:https://github.com/knr2/mypkg
+- TanapolHongsuwan
+- 参照ページリンク:https://github.com/TanapolHongsuwan/ROS_recorder/blob/main/README.md
