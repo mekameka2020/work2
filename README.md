@@ -26,7 +26,7 @@ git clone https://github.com/mekameka2020/work2.git
 ```
 と打ち込む。
 
-#　準備
+# 準備
  ## Tab1
 - roscoreの起動
  ```sh 
